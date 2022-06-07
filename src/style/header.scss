@@ -3,20 +3,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url(../assets/images/main-header-bg.jpg);
+  background-image: url(../../public/images/main-header-bg.jpg);
   background-position: center 0;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 30px 250px 30px;
   $mt: -40px;
   &.products-header {
-    background-image: url(../assets/images/product-bg.jpg);
+    background-image: url(../../public/images/product-bg.jpg);
   }
   &.about-header {
-    background-image: url(../assets/images/about-bg.jpg);
+    background-image: url(../../public/images/about-bg.jpg);
   }
   &.contacts-header {
-    background-image: url(../assets/images/contacts-header-bg.jpg);
+    background-image: url(../../public/images/contacts-header-bg.jpg);
   }
   &.product-item-header {
     background-image: none;
@@ -55,7 +55,7 @@
               position: absolute;
               top: 50%;
               left: calc(100% + 5px);
-              background-image: url(../assets/images/arrow-down.svg);
+              background-image: url(../../public/images/arrow-down.svg);
               background-position: center center;
               background-repeat: no-repeat;
               background-size: contain;
