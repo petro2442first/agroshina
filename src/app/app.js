@@ -1,6 +1,7 @@
 import "normalize.css";
 import Swiper, { Autoplay, Scrollbar, FreeMode, Thumbs } from "swiper";
-import "swiper/swiper-bundle.min.css";
+// import "swiper/swiper-bundle.min.css";
+import "swiper/css/bundle";
 
 function initPartnersSlider() {
   const selector = document.querySelector(".partners-slider") ?? null;
