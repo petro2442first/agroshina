@@ -1,0 +1,221 @@
+.contact-form {
+  background-image: url(../assets/images/product-form-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+
+  &__container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 60px 0 90px 0;
+  }
+  &__title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #ffffff;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 10fr 8fr;
+    grid-gap: 50px 128px;
+    margin-top: 80px;
+  }
+  &__form {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "name  last"
+      "phone size"
+      "msg   msg"
+      "btn   btn";
+    grid-gap: 20px 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    input {
+      background: #5f5a44;
+      border: 0;
+      border-radius: 11px;
+      padding: 20px 25px;
+      color: #fff;
+      &.name {
+        grid-area: name;
+      }
+      &.lastname {
+        grid-area: last;
+      }
+      &.phone {
+        grid-area: phone;
+      }
+      &.size {
+        grid-area: size;
+      }
+
+      &::placeholder {
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #7c7c7c;
+      }
+    }
+    textarea {
+      background: #5f5a44;
+      border: 0;
+      border-radius: 11px;
+      padding: 20px 25px;
+      color: #fff;
+      resize: vertical;
+      &::placeholder {
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #7c7c7c;
+      }
+      &.msg {
+        grid-area: msg;
+      }
+    }
+    button[type="submit"] {
+      background: #b98500;
+      width: 165px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      padding: 15px;
+      border: 0;
+      margin: 0 auto;
+      &.submit {
+        grid-area: btn;
+      }
+    }
+  }
+  &__form-title {
+    grid-area: title;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  &__col {
+    position: relative;
+    padding-top: 15px;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -64px;
+      width: 1px;
+      height: 100%;
+      background: #9b9b9b;
+    }
+    h3 {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 41px;
+
+      color: #ffffff;
+    }
+    p {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+
+      color: #ffffff;
+      margin-top: 30px;
+    }
+  }
+  &.about-form {
+    background: #fff;
+    .contact-form__form {
+      grid-template-areas:
+        "title title title title"
+        "name  last  msg    msg"
+        "phone size  msg    msg"
+        "btn   btn   btn    btn";
+      width: 100%;
+      input {
+        background: #ededed;
+      }
+      textarea {
+        background: #ededed;
+      }
+    }
+    .contact-form__title {
+      color: #000;
+    }
+    .contact-form__form-title {
+      color: #000;
+    }
+    .contact-form__description {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      /* identical to box height */
+
+      color: #000000;
+    }
+  }
+  &.main-contact-form {
+    background: #fff;
+    .contact-form__form {
+      input {
+        background: #ededed;
+      }
+      textarea {
+        background: #ededed;
+      }
+    }
+    .contact-form__title {
+      color: #000;
+    }
+    .contact-form__form-title {
+      color: #000;
+    }
+    .contact-form__description {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      /* identical to box height */
+
+      color: #000000;
+    }
+    .contact-form__col {
+      h3 {
+        color: #000;
+      }
+      p {
+        color: #000;
+      }
+    }
+  }
+}

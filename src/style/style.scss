@@ -1,0 +1,59 @@
+@import "./fonts.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Futura PT";
+}
+body {
+  overflow: hidden;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  &.products-grid {
+    background: #f7f8fa;
+  }
+  &__container {
+    width: 1140px;
+    &.home {
+      padding-bottom: 120px;
+      margin-bottom: 150px;
+      border-bottom: 3px solid #c0c0c0;
+    }
+  }
+  &__title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+    margin-top: 85px;
+    margin-bottom: 75px;
+    color: #000000;
+  }
+}
+@import "./header.scss";
+@import "./products-grid.scss";
+@import "./about.scss";
+@import "./partners.scss";
+@import "./footer.scss";
+@import "./form.scss";
+@import "./categories.scss";
+@import "./contacts.scss";
+@import "./single-product.scss";
