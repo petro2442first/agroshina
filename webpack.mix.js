@@ -6,6 +6,7 @@ mix
   .sass("src/style/style.scss", "public/")
   .options({
     autoprefixer: "last 5 versions",
+    processCssUrls: false,
   })
   .copyDirectory("src/assets/images/", "public/images")
   .copyDirectory("src/assets/fonts/", "public/fonts")
