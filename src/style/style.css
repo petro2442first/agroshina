@@ -5,6 +5,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-Heavy.eot");
@@ -12,6 +13,7 @@
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT Demi";
   src: url("fonts/FuturaPT/FuturaPT-DemiObl.eot");
@@ -19,6 +21,7 @@
   font-weight: 600;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Cond Extra";
   src: url("fonts/FuturaPT/FuturaPTCond-ExtraBoldObl.eot");
@@ -26,6 +29,7 @@
   font-weight: 800;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Cond Book";
   src: url("fonts/FuturaPT/FuturaPTCond-Book.eot");
@@ -33,6 +37,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-LightObl.eot");
@@ -40,6 +45,7 @@
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Book";
   src: url("fonts/FuturaPT/FuturaPT-BookObl.eot");
@@ -47,6 +53,7 @@
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-HeavyObl.eot");
@@ -54,6 +61,7 @@
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Cond";
   src: url("fonts/FuturaPT/FuturaPTCond-BoldObl.eot");
@@ -61,6 +69,7 @@
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Demi";
   src: url("fonts/FuturaPT/FuturaPT-Demi.eot");
@@ -68,6 +77,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT Cond Book";
   src: url("fonts/FuturaPT/FuturaPTCond-BookObl.eot");
@@ -75,6 +85,7 @@
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Extra";
   src: url("fonts/FuturaPT/FuturaPT-ExtraBold.eot");
@@ -82,6 +93,7 @@
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT Cond";
   src: url("fonts/FuturaPT/FuturaPTCond-Medium.eot");
@@ -89,6 +101,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-Medium.eot");
@@ -96,6 +109,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT Cond Extra";
   src: url("fonts/FuturaPT/FuturaPTCond-ExtraBold.eot");
@@ -103,6 +117,7 @@
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-MediumObl.eot");
@@ -110,6 +125,7 @@
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Cond";
   src: url("fonts/FuturaPT/FuturaPTCond-Bold.eot");
@@ -117,6 +133,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-BoldObl.eot");
@@ -124,6 +141,7 @@
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Book";
   src: url("fonts/FuturaPT/FuturaPT-Book.eot");
@@ -131,6 +149,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT";
   src: url("fonts/FuturaPT/FuturaPT-Light.eot");
@@ -138,6 +157,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Futura PT Cond";
   src: url("fonts/FuturaPT/FuturaPTCond-MediumObl.eot");
@@ -145,6 +165,7 @@
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Futura PT Extra";
   src: url("fonts/FuturaPT/FuturaPT-ExtraBoldObl.eot");
@@ -152,6 +173,7 @@
   font-weight: 800;
   font-style: italic;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -194,17 +216,22 @@ ul {
           justify-content: flex-start;
   width: 100%;
 }
+
 .main.products-grid {
   background: #f7f8fa;
 }
+
 .main__container {
   width: 1140px;
+  max-width: 1140px;
 }
+
 .main__container.home {
   padding-bottom: 120px;
   margin-bottom: 150px;
   border-bottom: 3px solid #c0c0c0;
 }
+
 .main__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -234,20 +261,25 @@ ul {
   background-repeat: no-repeat;
   padding: 20px 30px 50px 30px;
 }
+
 .header.products-header {
   background-image: url(images/product-bg.jpg);
 }
+
 .header.about-header {
   background-image: url(images/about-bg.jpg);
 }
+
 .header.contacts-header {
   background-image: url(images/contacts-header-bg.jpg);
 }
+
 .header.product-item-header {
   background-image: none;
   background: #000;
   padding: 60px 30px 60px 30px;
 }
+
 .header__container {
   max-width: 1140px;
   width: 1140px;
@@ -265,6 +297,7 @@ ul {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .header__row {
   width: 100%;
   display: -webkit-box;
@@ -277,18 +310,23 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .header__nav {
   margin-top: 0px;
 }
+
 .header__nav .nav-menu {
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   grid-gap: 75px;
 }
+
 .header__nav .nav-menu__item {
   position: relative;
   padding-bottom: 10px;
 }
+
 .header__nav .nav-menu__item.has-children > a::after {
   content: "";
   display: block;
@@ -302,9 +340,9 @@ ul {
   width: 12px;
   height: 7px;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .header__nav .nav-menu__item.has-children .sub-menu {
   position: absolute;
   visibility: hidden;
@@ -318,24 +356,23 @@ ul {
   width: fit-content;
   min-width: 150px;
   -webkit-transform: translateY(20px);
-      -ms-transform: translateY(20px);
           transform: translateY(20px);
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .header__nav .nav-menu__item.has-children:hover .sub-menu {
   visibility: visible;
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
 }
+
 .header__nav .nav-menu__item.has-children:hover > a::after {
   -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
 .header__nav .nav-menu__item a {
   position: relative;
   display: inline-block;
@@ -345,6 +382,7 @@ ul {
   line-height: 23px;
   color: #ffffff;
 }
+
 .header__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,6 +395,7 @@ ul {
           align-items: center;
   width: 152px;
 }
+
 .header__logo img {
   display: block;
   width: 100%;
@@ -364,6 +403,7 @@ ul {
   -o-object-fit: contain;
      object-fit: contain;
 }
+
 .header__topbar {
   margin-top: 0px;
   display: -webkit-box;
@@ -376,6 +416,7 @@ ul {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .header__topbar .contacts {
   padding: 10px 55px;
   border: 2px solid #ffffff;
@@ -385,12 +426,15 @@ ul {
   font-size: 14px;
   line-height: 18px;
 }
+
 .header__topbar .edit {
   margin-left: 25px;
 }
+
 .header__topbar .search {
   margin-left: 25px;
 }
+
 .header__about {
   margin-top: 100px;
   display: -webkit-box;
@@ -407,6 +451,7 @@ ul {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
+
 .header__about .col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -419,6 +464,7 @@ ul {
       -ms-flex-align: end;
           align-items: flex-end;
 }
+
 .header__about .col .pr-title {
   font-style: normal;
   font-weight: 600;
@@ -430,6 +476,7 @@ ul {
   color: #ffffff;
   margin: 0;
 }
+
 .header__about .col .sc-title {
   font-style: normal;
   font-weight: 400;
@@ -441,6 +488,7 @@ ul {
   color: #ffffff;
   text-align: right;
 }
+
 .header__about .content {
   font-style: normal;
   font-weight: 300;
@@ -449,6 +497,7 @@ ul {
   margin-top: 40px;
   color: #ffffff;
 }
+
 .header__about a {
   font-style: normal;
   font-weight: 500;
@@ -459,6 +508,7 @@ ul {
   padding: 15px 35px;
   margin-top: 20px;
 }
+
 .header__features {
   margin-top: 15px;
   -ms-flex-item-align: end;
@@ -477,6 +527,7 @@ ul {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .header__features .th-title {
   font-style: normal;
   font-weight: 200;
@@ -486,12 +537,14 @@ ul {
   letter-spacing: 0.2em;
   color: #ffffff;
 }
+
 .header__features ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
 }
+
 .header__features ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,9 +560,11 @@ ul {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .header__features ul li + li {
   margin-left: 100px;
 }
+
 .header__features ul li h4 {
   font-style: normal;
   font-weight: 400;
@@ -519,6 +574,7 @@ ul {
   letter-spacing: 0.1em;
   color: #ffffff;
 }
+
 .header__features ul li span {
   font-style: normal;
   font-weight: 200;
@@ -529,6 +585,7 @@ ul {
   color: #ffffff;
   margin-top: 5px;
 }
+
 .header__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -558,6 +615,7 @@ ul {
   padding-top: 150px;
   position: relative;
 }
+
 .products::before {
   content: "";
   display: block;
@@ -565,15 +623,16 @@ ul {
   top: 0;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   width: 100vw;
   height: 100%;
   background: #fff;
 }
+
 .products__container {
   width: 100%;
 }
+
 .products__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -584,9 +643,12 @@ ul {
   color: #000000;
   margin-bottom: 25px;
 }
+
 .products__grid {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(4, 260px);
+  -ms-grid-columns: (260px)[4];
+      grid-template-columns: repeat(4, 260px);
   grid-gap: 25px 30px;
   background: #fff;
 }
@@ -598,307 +660,408 @@ ul {
   width: 260px;
   background: #fff;
 }
+
 .product-card:hover {
   overflow: visible;
   z-index: 10;
 }
+
 .product-card:hover .product-card:nth-child(1) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(2) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(3) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(4) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(5) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(6) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(7) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(8) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(9) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(10) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(11) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(12) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(13) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(14) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(15) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(16) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(17) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(18) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(19) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(20) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(21) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(22) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(23) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(24) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(25) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(26) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(27) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(28) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(29) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(30) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(31) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(32) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(33) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(34) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(35) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(36) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(37) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(38) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(39) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(40) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(41) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(42) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(43) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(44) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(45) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(46) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(47) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(48) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(49) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(50) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(51) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(52) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(53) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(54) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(55) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(56) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(57) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(58) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(59) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(60) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(61) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(62) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(63) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(64) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(65) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(66) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(67) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(68) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(69) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(70) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(71) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(72) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(73) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(74) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(75) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(76) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(77) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(78) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(79) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(80) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(81) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(82) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(83) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(84) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(85) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(86) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(87) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(88) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(89) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(90) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(91) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(92) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(93) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(94) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(95) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(96) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(97) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(98) {
   z-index: 0;
 }
+
 .product-card:hover .product-card:nth-child(99) {
   z-index: 0;
 }
+
 .product-card:hover .product-card__container {
   -webkit-box-shadow: 0px 13px 14px rgba(0, 0, 0, 0.11);
           box-shadow: 0px 13px 14px rgba(0, 0, 0, 0.11);
@@ -906,12 +1069,12 @@ ul {
   height: calc(100% + 100px);
   padding: 20px 20px 30px 20px;
 }
+
 .product-card__container {
   position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
@@ -930,14 +1093,15 @@ ul {
           justify-content: space-between;
   background: #fff;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .product-card__thumbnail {
   width: 100%;
   max-height: 260px;
   margin-bottom: 50px;
 }
+
 .product-card__thumbnail img {
   display: block;
   -o-object-fit: contain;
@@ -945,6 +1109,7 @@ ul {
   width: 100%;
   height: 100%;
 }
+
 .product-card__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -953,6 +1118,7 @@ ul {
   line-height: 41px;
   color: #000000;
 }
+
 .product-card__id {
   font-family: "Futura PT";
   font-style: normal;
@@ -961,6 +1127,7 @@ ul {
   line-height: 31px;
   color: #000000;
 }
+
 .product-card__price {
   font-family: "Futura PT";
   font-style: normal;
@@ -970,6 +1137,7 @@ ul {
   color: #000000;
   margin-top: 10px;
 }
+
 .product-card__price span {
   font-family: "Futura PT";
   font-style: normal;
@@ -978,6 +1146,7 @@ ul {
   line-height: 31px;
   color: #000000;
 }
+
 .product-card__to-cart {
   font-family: "Futura PT";
   font-style: normal;
@@ -990,12 +1159,13 @@ ul {
   background: #b98500;
   padding: 15px 50px;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
   cursor: pointer;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .product-card__to-cart:hover {
   -webkit-filter: brightness(0.8);
           filter: brightness(0.8);
@@ -1005,11 +1175,15 @@ ul {
   width: 100%;
   padding-bottom: 50px;
 }
+
 .products-filter__row {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 128px;
 }
+
 .products-filter__item input {
   width: 360px;
   border: 0;
@@ -1024,6 +1198,7 @@ ul {
   background: transparent;
   color: #000000;
 }
+
 .products-filter__item select {
   width: 260px;
   padding: 10px;
@@ -1031,6 +1206,7 @@ ul {
   border-bottom: 1px solid #000;
   background: transparent;
 }
+
 .products-filter__btns {
   margin-top: 60px;
   display: -webkit-box;
@@ -1043,9 +1219,11 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .products-filter__btns button {
   padding: 15px 45px;
 }
+
 .products-filter__btns button.submit {
   font-family: "Futura PT";
   font-style: normal;
@@ -1057,6 +1235,7 @@ ul {
   border: 1px solid #b98500;
   color: #ffffff;
 }
+
 .products-filter__btns button.clear {
   font-family: "Futura PT";
   font-style: normal;
@@ -1073,6 +1252,7 @@ ul {
 .about-home {
   margin-top: 160px;
 }
+
 .about-home__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1083,11 +1263,15 @@ ul {
   color: #000000;
   margin-bottom: 50px;
 }
+
 .about-home__row {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 150px;
 }
+
 .about-home__description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1103,6 +1287,7 @@ ul {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .about-home__description p,
 .about-home__description ul {
   font-family: "Futura PT";
@@ -1112,9 +1297,11 @@ ul {
   line-height: 23px;
   color: #000000;
 }
+
 .about-home__description p + p {
   margin-top: 30px;
 }
+
 .about-home__description a {
   display: inline-block;
   font-family: "Futura PT";
@@ -1128,20 +1315,23 @@ ul {
   background: #b98500;
   padding: 15px 50px;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
   cursor: pointer;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .about-home__description a:hover {
   -webkit-filter: brightness(0.8);
           filter: brightness(0.8);
 }
+
 .about-home__thumbnail {
   width: 520px;
   height: 460px;
 }
+
 .about-home__thumbnail img {
   display: block;
   -o-object-fit: contain;
@@ -1167,10 +1357,13 @@ ul {
           flex-direction: column;
   width: 100%;
 }
+
 .about__container {
   max-width: 1140px;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1181,10 +1374,13 @@ ul {
   padding-top: 70px;
   padding-bottom: 100px;
 }
+
 .about__row {
   max-width: 1140px;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1195,6 +1391,7 @@ ul {
   padding-top: 70px;
   padding-bottom: 100px;
 }
+
 .about__row.bg-block {
   background-image: url(images/about-block-bg.jpg);
   background-position: center center;
@@ -1214,9 +1411,11 @@ ul {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 .about__row.bg-block * {
   color: #fff;
 }
+
 .about__content p {
   font-family: "Futura PT";
   font-style: normal;
@@ -1225,6 +1424,7 @@ ul {
   line-height: 23px;
   color: #000000;
 }
+
 .about__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1250,9 +1450,11 @@ ul {
   padding-top: 150px;
   padding-bottom: 70px;
 }
+
 .brands__container {
   max-width: 1140px;
 }
+
 .brands__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1263,15 +1465,20 @@ ul {
   color: #000000;
   margin-bottom: 80px;
 }
+
 .brands__list {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
+
 .brands__item {
   width: 100%;
   height: 100%;
 }
+
 .brands__item img {
   display: block;
   -o-object-fit: contain;
@@ -1284,6 +1491,7 @@ ul {
   width: 100%;
   margin-top: 165px;
 }
+
 .partners__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1293,6 +1501,7 @@ ul {
   color: #000000;
   margin-bottom: 50px;
 }
+
 .partners .swiper {
   width: 100%;
   height: 300px;
@@ -1304,13 +1513,16 @@ ul {
   height: -moz-fit-content;
   height: fit-content;
 }
+
 .partners-slider .swiper-wrapper {
   padding-bottom: 20px;
 }
+
 .partners-slider .swiper-slide {
   width: 165px;
   height: 185px !important;
 }
+
 .partners-slider .swiper-slide img {
   display: block;
   width: 100%;
@@ -1339,12 +1551,17 @@ ul {
   padding-top: 115px;
   padding-bottom: 30px;
 }
+
 .footer__container {
   width: 1140px;
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "links logo" "msg logo" "copy copy";
+      grid-template-areas: "links logo" "msg logo" "copy copy";
 }
+
 .footer__row {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: links;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1357,12 +1574,15 @@ ul {
           align-items: flex-start;
   width: 100px;
 }
+
 .footer__links-list + ul {
   margin-left: 50px;
 }
+
 .footer__links-list li + li {
   padding-top: 20px;
 }
+
 .footer__links-list li.title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1373,6 +1593,7 @@ ul {
   letter-spacing: 0.05em;
   color: #ffffff;
 }
+
 .footer__links-list li a {
   font-family: "Futura PT";
   font-style: normal;
@@ -1381,7 +1602,11 @@ ul {
   line-height: 26px;
   color: #ffffff;
 }
+
 .footer__logo {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
   grid-area: logo;
   width: 100%;
   height: 100%;
@@ -1395,6 +1620,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .footer__logo img {
   display: block;
   width: 318px;
@@ -1402,7 +1628,12 @@ ul {
   -o-object-fit: contain;
      object-fit: contain;
 }
+
 .footer__thanks-msg {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-area: msg;
   font-family: "Futura PT";
   font-style: normal;
@@ -1413,7 +1644,11 @@ ul {
   margin-top: 120px;
   max-width: 555px;
 }
+
 .footer__copyright {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: copy;
   font-family: "Futura PT";
   font-style: normal;
@@ -1454,11 +1689,13 @@ ul {
   margin-top: 100px;
   width: 100%;
 }
+
 .contact-form__container {
   max-width: 1140px;
   width: 100%;
   padding: 60px 0 90px 0;
 }
+
 .contact-form__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1467,19 +1704,25 @@ ul {
   line-height: 51px;
   color: #ffffff;
 }
+
 .contact-form__row {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 10fr 8fr;
+  -ms-grid-columns: 10fr 8fr;
+      grid-template-columns: 10fr 8fr;
   grid-gap: 50px 128px;
   margin-top: 80px;
 }
+
 .contact-form__form {
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "title title" "name  last" "phone size" "msg   msg" "btn   btn";
+      grid-template-areas: "title title" "name  last" "phone size" "msg   msg" "btn   btn";
   grid-gap: 20px 30px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .contact-form__form input {
   background: #5f5a44;
   border: 0;
@@ -1487,18 +1730,31 @@ ul {
   padding: 20px 25px;
   color: #fff;
 }
+
 .contact-form__form input.name {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: name;
 }
+
 .contact-form__form input.lastname {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: last;
 }
+
 .contact-form__form input.phone {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   grid-area: phone;
 }
+
 .contact-form__form input.size {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
   grid-area: size;
 }
+
 .contact-form__form input::-webkit-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1508,15 +1764,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
-.contact-form__form input::-moz-placeholder {
-  font-family: "Futura PT";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  /* identical to box height */
-  color: #7c7c7c;
-}
+
 .contact-form__form input:-ms-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1526,6 +1774,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form input::-ms-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1535,6 +1784,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form input::placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1544,6 +1794,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form textarea {
   background: #5f5a44;
   border: 0;
@@ -1552,6 +1803,7 @@ ul {
   color: #fff;
   resize: vertical;
 }
+
 .contact-form__form textarea::-webkit-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1561,15 +1813,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
-.contact-form__form textarea::-moz-placeholder {
-  font-family: "Futura PT";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  /* identical to box height */
-  color: #7c7c7c;
-}
+
 .contact-form__form textarea:-ms-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1579,6 +1823,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form textarea::-ms-input-placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1588,6 +1833,7 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form textarea::placeholder {
   font-family: "Futura PT";
   font-style: normal;
@@ -1597,10 +1843,16 @@ ul {
   /* identical to box height */
   color: #7c7c7c;
 }
+
 .contact-form__form textarea.msg {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-area: msg;
 }
-.contact-form__form button[type=submit] {
+
+.contact-form__form button[type="submit"] {
   background: #b98500;
   width: 165px;
   display: -webkit-box;
@@ -1617,10 +1869,18 @@ ul {
   border: 0;
   margin: 0 auto;
 }
-.contact-form__form button[type=submit].submit {
+
+.contact-form__form button[type="submit"].submit {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: btn;
 }
+
 .contact-form__form-title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: title;
   font-family: "Futura PT";
   font-style: normal;
@@ -1630,10 +1890,12 @@ ul {
   /* identical to box height */
   color: #ffffff;
 }
+
 .contact-form__col {
   position: relative;
   padding-top: 15px;
 }
+
 .contact-form__col::before {
   content: "";
   display: block;
@@ -1644,6 +1906,7 @@ ul {
   height: 100%;
   background: #9b9b9b;
 }
+
 .contact-form__col h3 {
   font-family: "Futura PT";
   font-style: normal;
@@ -1652,6 +1915,7 @@ ul {
   line-height: 41px;
   color: #ffffff;
 }
+
 .contact-form__col p {
   font-family: "Futura PT";
   font-style: normal;
@@ -1661,25 +1925,32 @@ ul {
   color: #ffffff;
   margin-top: 30px;
 }
+
 .contact-form.about-form {
   background: #fff;
 }
+
 .contact-form.about-form .contact-form__form {
-  grid-template-areas: "title title title title" "name  last  msg    msg" "phone size  msg    msg" "btn   btn   btn    btn";
+      grid-template-areas: "title title title title" "name  last  msg    msg" "phone size  msg    msg" "btn   btn   btn    btn";
   width: 100%;
 }
+
 .contact-form.about-form .contact-form__form input {
   background: #ededed;
 }
+
 .contact-form.about-form .contact-form__form textarea {
   background: #ededed;
 }
+
 .contact-form.about-form .contact-form__title {
   color: #000;
 }
+
 .contact-form.about-form .contact-form__form-title {
   color: #000;
 }
+
 .contact-form.about-form .contact-form__description {
   font-family: "Futura PT";
   font-style: normal;
@@ -1689,21 +1960,27 @@ ul {
   /* identical to box height */
   color: #000000;
 }
+
 .contact-form.main-contact-form {
   background: #fff;
 }
+
 .contact-form.main-contact-form .contact-form__form input {
   background: #ededed;
 }
+
 .contact-form.main-contact-form .contact-form__form textarea {
   background: #ededed;
 }
+
 .contact-form.main-contact-form .contact-form__title {
   color: #000;
 }
+
 .contact-form.main-contact-form .contact-form__form-title {
   color: #000;
 }
+
 .contact-form.main-contact-form .contact-form__description {
   font-family: "Futura PT";
   font-style: normal;
@@ -1713,9 +1990,11 @@ ul {
   /* identical to box height */
   color: #000000;
 }
+
 .contact-form.main-contact-form .contact-form__col h3 {
   color: #000;
 }
+
 .contact-form.main-contact-form .contact-form__col p {
   color: #000;
 }
@@ -1731,9 +2010,12 @@ ul {
   margin-top: 150px;
   margin-bottom: 60px;
 }
+
 .categories__list {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   -webkit-perspective: 800px;
           perspective: 800px;
@@ -1744,15 +2026,16 @@ ul {
 .category {
   position: relative;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   border-radius: 18px;
   cursor: pointer;
 }
+
 .category:hover {
   -webkit-transform: rotateX(-10deg);
           transform: rotateX(-10deg);
 }
+
 .category__title {
   position: absolute;
   font-family: "Futura PT";
@@ -1764,10 +2047,12 @@ ul {
   left: 30px;
   top: 25px;
 }
+
 .category__thumb {
   border-radius: 18px;
   height: 250px;
 }
+
 .category__thumb img {
   display: block;
   border-radius: 18px;
@@ -1782,6 +2067,7 @@ ul {
   padding-top: 100px;
   padding-bottom: 150px;
 }
+
 .contacts__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1792,9 +2078,12 @@ ul {
   color: #000000;
   margin-bottom: 50px;
 }
+
 .contacts__info {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
 
@@ -1818,10 +2107,12 @@ ul {
   border-radius: 14px;
   padding: 20px 55px 55px 55px;
 }
+
 .contact-item__thumb {
   width: 60px;
   height: 60px;
 }
+
 .contact-item__thumb img {
   display: block;
   -o-object-fit: contain;
@@ -1829,6 +2120,7 @@ ul {
   width: 100%;
   height: 100%;
 }
+
 .contact-item__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1844,6 +2136,7 @@ ul {
   text-align: center;
   margin-top: 10px;
 }
+
 .contact-item__link {
   font-family: "Futura PT";
   font-style: normal;
@@ -1857,6 +2150,7 @@ ul {
 .single-product {
   margin-bottom: 140px;
 }
+
 .single-product__back-btn {
   font-family: "Futura PT";
   font-style: normal;
@@ -1872,6 +2166,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
 }
+
 .single-product__back-btn::before {
   content: "";
   display: block;
@@ -1883,6 +2178,7 @@ ul {
   height: 23px;
   margin-right: 5px;
 }
+
 .single-product__title {
   font-family: "Futura PT";
   font-style: normal;
@@ -1894,19 +2190,23 @@ ul {
   margin-top: 55px;
   margin-bottom: 55px;
 }
+
 .single-product__row {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .single-product__thumbs {
   height: 750px;
   width: 50%;
 }
+
 .single-product__thumbs .main-thumbs-slider {
   max-height: 555px;
 }
+
 .single-product__thumbs .main-thumbs-slider .swiper-slide img {
   display: block;
   -o-object-fit: contain;
@@ -1914,10 +2214,12 @@ ul {
   width: 100%;
   height: 100%;
 }
+
 .single-product__thumbs .thumbs-slider {
   height: 165px;
   margin-top: 30px;
 }
+
 .single-product__thumbs .thumbs-slider .swiper-slide img {
   display: block;
   -o-object-fit: contain;
@@ -1925,6 +2227,7 @@ ul {
   width: 100%;
   height: 100%;
 }
+
 .single-product__info {
   margin-left: 30px;
   display: -webkit-box;
@@ -1938,6 +2241,7 @@ ul {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
 .single-product__name {
   font-family: "Futura PT";
   font-style: normal;
@@ -1946,6 +2250,7 @@ ul {
   line-height: 46px;
   color: #000000;
 }
+
 .single-product__id {
   margin-top: 15px;
   font-family: "Futura PT";
@@ -1956,6 +2261,7 @@ ul {
   /* identical to box height */
   color: #000000;
 }
+
 .single-product__id span {
   font-family: "Futura PT";
   font-style: normal;
@@ -1966,6 +2272,7 @@ ul {
   color: #000000;
   margin-right: 15px;
 }
+
 .single-product__description {
   margin-top: 30px;
   font-family: "Futura PT";
@@ -1975,6 +2282,7 @@ ul {
   line-height: 26px;
   color: #000000;
 }
+
 .single-product__size {
   margin-top: 50px;
   width: 100%;
@@ -1988,6 +2296,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .single-product__size select {
   font-family: "Futura PT";
   font-style: normal;
@@ -2001,6 +2310,7 @@ ul {
   padding: 10px;
   padding-right: 105px;
 }
+
 .single-product__checkout {
   background: #b98500;
   border: 0;
@@ -2015,17 +2325,23 @@ ul {
   padding: 15px 50px;
   margin-top: 50px;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
 }
+
 .single-product__related-products {
   width: 100%;
 }
+
 .single-product__related-products .related-list {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
   grid-gap: 30px;
   width: 100%;
 }
+
 .single-product__related-products .related-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2041,6 +2357,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .single-product__related-products .related-item img {
   display: block;
   -o-object-fit: contain;
@@ -2048,6 +2365,7 @@ ul {
   width: 100%;
   height: 165px;
 }
+
 .single-product__related-products .related-item h4 {
   font-family: "Futura PT";
   font-style: normal;
@@ -2058,3 +2376,11 @@ ul {
   color: #000000;
   margin-top: 15px;
 }
+
+@media screen and (max-width: 1200px) {
+  .main__container {
+    width: 900px;
+    max-width: 900px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

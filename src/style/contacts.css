@@ -1,0 +1,85 @@
+.contacts {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.contacts__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.contacts__info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #f7f8fa;
+  -webkit-box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.21);
+  border-radius: 14px;
+  padding: 20px 55px 55px 55px;
+}
+
+.contact-item__thumb {
+  width: 60px;
+  height: 60px;
+}
+
+.contact-item__thumb img {
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-item__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #e9e9e9;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-item__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  /* identical to box height */
+  color: #000000;
+}
+/*# sourceMappingURL=contacts.css.map */

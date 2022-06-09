@@ -1,0 +1,63 @@
+.categories__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  /* identical to box height */
+  color: #000000;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.categories__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.category {
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.category:hover {
+  -webkit-transform: rotateX(-10deg);
+          transform: rotateX(-10deg);
+}
+
+.category__title {
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  left: 30px;
+  top: 25px;
+}
+
+.category__thumb {
+  border-radius: 18px;
+  height: 250px;
+}
+
+.category__thumb img {
+  display: block;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=categories.css.map */
