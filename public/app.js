@@ -51,15 +51,23 @@ function burgerMenu() {
     e.preventDefault();
     menu.classList.add("show");
   });
-  const close = document.querySelector(".nav-close");
+  const close = document.querySelector(".nav-close") ?? null;
+  if (close === null) return;
   close.addEventListener("click", (e) => {
     e.preventDefault();
     menu.classList.remove("show");
   });
 }
-
+function centerLastCategoryItem() {
+  const categories = document.querySelectorAll(".category") ?? null;
+  if (categories === null) return;
+  if (categories.length % 2 != 0) {
+    categories[categories.length - 1].classList.add("center");
+  }
+}
 window.addEventListener("load", (e) => {
   initPartnersSlider();
   initSingleProductThumbsSlider();
   burgerMenu();
+  centerLastCategoryItem();
 });
