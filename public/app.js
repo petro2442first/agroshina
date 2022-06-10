@@ -34,9 +34,9 @@ function initPartnersSlider() {
       640: {
         slidesPerView: 5,
       },
-      800 {
-        slidesPerView: 6
-      }
+      800: {
+        slidesPerView: 6,
+      },
     },
   });
   slider.init();
